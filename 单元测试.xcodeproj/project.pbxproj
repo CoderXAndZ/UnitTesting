@@ -15,6 +15,9 @@
 		844DE4111F42E0D000CE84C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DE4101F42E0D000CE84C9 /* Assets.xcassets */; };
 		844DE4141F42E0D000CE84C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DE4121F42E0D000CE84C9 /* LaunchScreen.storyboard */; };
 		844DE41F1F42E0D000CE84C9 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE41E1F42E0D000CE84C9 /* ____Tests.m */; };
+		844DE42B1F42E13700CE84C9 /* XZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42A1F42E13700CE84C9 /* XZPerson.m */; };
+		844DE42C1F42E13700CE84C9 /* XZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42A1F42E13700CE84C9 /* XZPerson.m */; };
+		844DE42E1F42E25700CE84C9 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42D1F42E25700CE84C9 /* PersonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		844DE41A1F42E0D000CE84C9 /* 单元测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DE41E1F42E0D000CE84C9 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		844DE4201F42E0D000CE84C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844DE4291F42E13700CE84C9 /* XZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPerson.h; sourceTree = "<group>"; };
+		844DE42A1F42E13700CE84C9 /* XZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPerson.m; sourceTree = "<group>"; };
+		844DE42D1F42E25700CE84C9 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 				844DE4051F42E0D000CE84C9 /* AppDelegate.m */,
 				844DE4071F42E0D000CE84C9 /* ViewController.h */,
 				844DE4081F42E0D000CE84C9 /* ViewController.m */,
+				844DE4291F42E13700CE84C9 /* XZPerson.h */,
+				844DE42A1F42E13700CE84C9 /* XZPerson.m */,
 				844DE40A1F42E0D000CE84C9 /* Main.storyboard */,
 				844DE4101F42E0D000CE84C9 /* Assets.xcassets */,
 				844DE4121F42E0D000CE84C9 /* LaunchScreen.storyboard */,
@@ -109,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				844DE41E1F42E0D000CE84C9 /* ____Tests.m */,
+				844DE42D1F42E25700CE84C9 /* PersonTests.m */,
 				844DE4201F42E0D000CE84C9 /* Info.plist */,
 			);
 			path = "单元测试Tests";
@@ -163,6 +172,7 @@
 				TargetAttributes = {
 					844DE3FD1F42E0D000CE84C9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JM8C4U4YF7;
 						ProvisioningStyle = Automatic;
 					};
 					844DE4191F42E0D000CE84C9 = {
@@ -219,6 +229,7 @@
 				844DE4091F42E0D000CE84C9 /* ViewController.m in Sources */,
 				844DE40F1F42E0D000CE84C9 /* ____.xcdatamodeld in Sources */,
 				844DE4061F42E0D000CE84C9 /* AppDelegate.m in Sources */,
+				844DE42B1F42E13700CE84C9 /* XZPerson.m in Sources */,
 				844DE4031F42E0D000CE84C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844DE42E1F42E25700CE84C9 /* PersonTests.m in Sources */,
+				844DE42C1F42E13700CE84C9 /* XZPerson.m in Sources */,
 				844DE41F1F42E0D000CE84C9 /* ____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +368,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = "单元测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XZ.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,7 +381,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = "单元测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XZ.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
