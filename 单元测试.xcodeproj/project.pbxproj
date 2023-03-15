@@ -18,6 +18,7 @@
 		844DE42B1F42E13700CE84C9 /* XZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42A1F42E13700CE84C9 /* XZPerson.m */; };
 		844DE42C1F42E13700CE84C9 /* XZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42A1F42E13700CE84C9 /* XZPerson.m */; };
 		844DE42E1F42E25700CE84C9 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DE42D1F42E25700CE84C9 /* PersonTests.m */; };
+		84962AC329C1BB83003FA917 /* 对账单模板.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 84962AC229C1BB82003FA917 /* 对账单模板.xlsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		844DE4291F42E13700CE84C9 /* XZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPerson.h; sourceTree = "<group>"; };
 		844DE42A1F42E13700CE84C9 /* XZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPerson.m; sourceTree = "<group>"; };
 		844DE42D1F42E25700CE84C9 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		84962AC229C1BB82003FA917 /* 对账单模板.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "对账单模板.xlsx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				844DE4041F42E0D000CE84C9 /* AppDelegate.h */,
 				844DE4051F42E0D000CE84C9 /* AppDelegate.m */,
+				84962AC229C1BB82003FA917 /* 对账单模板.xlsx */,
 				844DE4071F42E0D000CE84C9 /* ViewController.h */,
 				844DE4081F42E0D000CE84C9 /* ViewController.m */,
 				844DE4291F42E13700CE84C9 /* XZPerson.h */,
@@ -187,6 +190,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -209,6 +213,7 @@
 				844DE4141F42E0D000CE84C9 /* LaunchScreen.storyboard in Resources */,
 				844DE4111F42E0D000CE84C9 /* Assets.xcassets in Resources */,
 				844DE40C1F42E0D000CE84C9 /* Main.storyboard in Resources */,
+				84962AC329C1BB83003FA917 /* 对账单模板.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 				844DE4251F42E0D000CE84C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844DE4261F42E0D000CE84C9 /* Build configuration list for PBXNativeTarget "单元测试Tests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +447,7 @@
 				844DE4281F42E0D000CE84C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
